@@ -15,8 +15,8 @@ def chunk_into_n(lst, n):
     chunks = [
         lst[
             i * chunk_size
-            + min(i, remainder) : (i + 1) * chunk_size
-            + min(i + 1, remainder)
+            + min(i, remainder) : (i + 1) * chunk_size  # noqa: E203, W503
+            + min(i + 1, remainder)  # noqa: W503
         ]
         for i in range(n)
     ]
