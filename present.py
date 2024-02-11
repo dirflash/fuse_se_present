@@ -30,7 +30,7 @@ print(se_list)
 # ['se01', 'se02', 'se03', 'se04', 'se05', 'se06', 'se07', 'se08', 'se09', 'se10', 'se11,
 # 'se12', 'se13', 'se14', 'se15']
 
-chunked_list = chunk_into_n(se_list, 5)
+chunked_list = chunk_into_n(se_list, 5)  # <--- Represents the number of columns
 print(chunked_list)
 # Sample chunked_list:
 # [['se01', 'se02', 'se03'], ['se04', 'se05', 'se06'], ['se07', 'se08', 'se09'],

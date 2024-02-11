@@ -1,4 +1,3 @@
-
 # Function to generate the column setup
 def create_column_setup(column_data):
     return {
@@ -31,13 +30,7 @@ def present_card(chunked_list):
                     "items": [
                         {
                             "type": "ColumnSet",
-                            "columns": [
-                                columns_setup[0],
-                                columns_setup[1],
-                                columns_setup[2],
-                                columns_setup[3],
-                                columns_setup[4],
-                            ],
+                            "columns": columns_setup,
                         }
                     ],
                 },
