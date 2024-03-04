@@ -8,3 +8,4 @@ utils/preferences.py
 *.csv
 *.xls*
 *.ipynb
+test*.*
