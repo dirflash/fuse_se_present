@@ -1,5 +1,5 @@
 """
-This code obtains a set of SE's that have accepted an invitation to attend a FUSE session.
+This code obtains a set of SE's from MongoDB that have accepted an invitation to attend a FUSE session.
 It then creates a list of first letters from the SE names.
 Chunks the list into a dictionary of first letters to SE names.
 Formats a Webex App card to display the names as a multi-select grouped by first letters.
